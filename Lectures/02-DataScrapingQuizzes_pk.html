@@ -11773,7 +11773,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1">## all imports</span>
@@ -11804,6 +11804,15 @@ div#notebook {
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>[PK] Using lecture 2</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -11906,20 +11915,40 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span> <span class="s2">&quot;Hello CS109&quot;</span>
 
 <span class="k">print</span> <span class="s2">&quot;I love IPython&quot;</span>
 
-<span class="c1"># Ipython notebook have tab completion!</span>
-<span class="c1"># and inbuild help</span>
-  
+<span class="c1"># Ipython notebook have tab completion! (press tab)</span>
+<span class="c1"># and inbuild help (run a command with a question mark)</span>
+
 <span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+a.clip<span class="o">?</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Hello CS109
+I love IPython
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -11973,7 +12002,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># pass in column names for each CSV</span>
@@ -11990,6 +12019,93 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[35]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>age</th>
+      <th>sex</th>
+      <th>occupation</th>
+      <th>zip_code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>24</td>
+      <td>M</td>
+      <td>technician</td>
+      <td>85711</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>53</td>
+      <td>F</td>
+      <td>other</td>
+      <td>94043</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>23</td>
+      <td>M</td>
+      <td>writer</td>
+      <td>32067</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>24</td>
+      <td>M</td>
+      <td>technician</td>
+      <td>43537</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>33</td>
+      <td>F</td>
+      <td>other</td>
+      <td>15213</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12001,7 +12117,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">r_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;user_id&#39;</span><span class="p">,</span> <span class="s1">&#39;movie_id&#39;</span><span class="p">,</span> <span class="s1">&#39;rating&#39;</span><span class="p">,</span> <span class="s1">&#39;unix_timestamp&#39;</span><span class="p">]</span>
@@ -12016,6 +12132,87 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[10]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>movie_id</th>
+      <th>rating</th>
+      <th>unix_timestamp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>196</td>
+      <td>242</td>
+      <td>3</td>
+      <td>881250949</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>186</td>
+      <td>302</td>
+      <td>3</td>
+      <td>891717742</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>22</td>
+      <td>377</td>
+      <td>1</td>
+      <td>878887116</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>244</td>
+      <td>51</td>
+      <td>2</td>
+      <td>880606923</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>166</td>
+      <td>346</td>
+      <td>1</td>
+      <td>886397596</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12027,7 +12224,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># the movies file contains columns indicating the movie&#39;s genres</span>
@@ -12046,6 +12243,93 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[11]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>movie_id</th>
+      <th>title</th>
+      <th>release_date</th>
+      <th>video_release_date</th>
+      <th>imdb_url</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Toy Story (1995)</td>
+      <td>01-Jan-1995</td>
+      <td>NaN</td>
+      <td>http://us.imdb.com/M/title-exact?Toy%20Story%2...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>GoldenEye (1995)</td>
+      <td>01-Jan-1995</td>
+      <td>NaN</td>
+      <td>http://us.imdb.com/M/title-exact?GoldenEye%20(...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>Four Rooms (1995)</td>
+      <td>01-Jan-1995</td>
+      <td>NaN</td>
+      <td>http://us.imdb.com/M/title-exact?Four%20Rooms%...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>Get Shorty (1995)</td>
+      <td>01-Jan-1995</td>
+      <td>NaN</td>
+      <td>http://us.imdb.com/M/title-exact?Get%20Shorty%...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>Copycat (1995)</td>
+      <td>01-Jan-1995</td>
+      <td>NaN</td>
+      <td>http://us.imdb.com/M/title-exact?Copycat%20(1995)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12057,7 +12341,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span> <span class="n">movies</span><span class="o">.</span><span class="n">dtypes</span>
@@ -12067,6 +12351,39 @@ div#notebook {
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>movie_id                int64
+title                  object
+release_date           object
+video_release_date    float64
+imdb_url               object
+dtype: object
+
+          movie_id  video_release_date
+count  1682.000000                 0.0
+mean    841.500000                 NaN
+std     485.695893                 NaN
+min       1.000000                 NaN
+25%     421.250000                 NaN
+50%     841.500000                 NaN
+75%    1261.750000                 NaN
+max    1682.000000                 NaN
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -12085,21 +12402,51 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">users</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-<span class="n">users</span><span class="p">[</span><span class="s1">&#39;occupation&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#users.head()</span>
+<span class="c1">#users[&#39;occupation&#39;].head()</span>
 <span class="c1">## *** Where did the nice design go? ***</span>
-<span class="n">columns_you_want</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;occupation&#39;</span><span class="p">,</span> <span class="s1">&#39;sex&#39;</span><span class="p">]</span> 
-<span class="n">users</span><span class="p">[</span><span class="n">columns_you_want</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="c1">#columns_you_want = [&#39;occupation&#39;, &#39;sex&#39;] </span>
+<span class="c1">#users[columns_you_want].head()</span>
 
 <span class="k">print</span> <span class="n">users</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-
 <span class="k">print</span> <span class="n">users</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+<span class="k">print</span> <span class="nb">type</span><span class="p">(</span><span class="n">users</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>   user_id  age sex  occupation zip_code
+0        1   24   M  technician    85711
+1        2   53   F       other    94043
+2        3   23   M      writer    32067
+3        4   24   M  technician    43537
+4        5   33   F       other    15213
+user_id                4
+age                   24
+sex                    M
+occupation    technician
+zip_code           43537
+Name: 3, dtype: object
+&lt;class &#39;pandas.core.series.Series&#39;&gt;
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -12115,7 +12462,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">oldUsers</span> <span class="o">=</span> <span class="n">users</span><span class="p">[</span><span class="n">users</span><span class="o">.</span><span class="n">age</span> <span class="o">&gt;</span> <span class="mi">25</span><span class="p">]</span>
@@ -12123,6 +12470,93 @@ div#notebook {
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[32]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>age</th>
+      <th>sex</th>
+      <th>occupation</th>
+      <th>zip_code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>53</td>
+      <td>F</td>
+      <td>other</td>
+      <td>94043</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>33</td>
+      <td>F</td>
+      <td>other</td>
+      <td>15213</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>42</td>
+      <td>M</td>
+      <td>executive</td>
+      <td>98101</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>57</td>
+      <td>M</td>
+      <td>administrator</td>
+      <td>91344</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>36</td>
+      <td>M</td>
+      <td>administrator</td>
+      <td>05201</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12143,31 +12577,155 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># users aged 40 AND male</span>
 <span class="c1"># your code here</span>
+<span class="n">users</span><span class="p">[(</span><span class="n">users</span><span class="o">.</span><span class="n">age</span> <span class="o">&gt;</span> <span class="mi">40</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">users</span><span class="o">.</span><span class="n">sex</span> <span class="o">==</span> <span class="s1">&#39;M&#39;</span><span class="p">)]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="c1"># Or</span>
+<span class="c1">#users.query(&quot;age &gt; 40 &amp; sex == &#39;M&#39;&quot;)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[68]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>age</th>
+      <th>sex</th>
+      <th>occupation</th>
+      <th>zip_code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>42</td>
+      <td>M</td>
+      <td>executive</td>
+      <td>98101</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>57</td>
+      <td>M</td>
+      <td>administrator</td>
+      <td>91344</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>53</td>
+      <td>M</td>
+      <td>lawyer</td>
+      <td>90703</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>13</td>
+      <td>47</td>
+      <td>M</td>
+      <td>educator</td>
+      <td>29206</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>14</td>
+      <td>45</td>
+      <td>M</td>
+      <td>scientist</td>
+      <td>55106</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[72]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1">## users who are female and programmers</span>
 <span class="c1"># your code here</span>
+<span class="n">female_programmers</span><span class="o">=</span><span class="n">users</span><span class="p">[(</span><span class="n">users</span><span class="o">.</span><span class="n">sex</span> <span class="o">==</span> <span class="s1">&#39;F&#39;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">users</span><span class="o">.</span><span class="n">occupation</span> <span class="o">==</span> <span class="s1">&#39;programmer&#39;</span><span class="p">)]</span>
+<span class="c1"># Or</span>
+<span class="c1">#female_programmers=users.query(&quot;sex == &#39;F&#39; &amp; occupation == &#39;programmer&#39;&quot;)</span>
 
 <span class="c1">## show statistic summary or compute mean</span>
 <span class="c1"># your code here</span>
+<span class="k">print</span><span class="p">(</span><span class="n">female_programmers</span><span class="o">.</span><span class="n">describe</span><span class="p">())</span>
+<span class="k">print</span><span class="p">(</span><span class="n">female_programmers</span><span class="o">.</span><span class="n">age</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+<span class="k">print</span><span class="p">(</span><span class="n">female_programmers</span><span class="p">[</span><span class="s1">&#39;age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>          user_id        age
+count    6.000000   6.000000
+mean   411.166667  32.166667
+std    149.987222   5.115336
+min    292.000000  26.000000
+25%    313.000000  28.250000
+50%    378.000000  32.000000
+75%    416.750000  36.500000
+max    698.000000  38.000000
+32.166666666666664
+32.166666666666664
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -12189,7 +12747,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Split-apply-combine">Split-apply-combine<a class="anchor-link" href="#Split-apply-combine">&#182;</a></h1><p>&lt;img src=<a href="http://i.imgur.com/yjNkiwL.png&gt;">http://i.imgur.com/yjNkiwL.png&gt;</a>&lt;/img&gt;</p>
+<h1 id="Split-apply-combine">Split-apply-combine<a class="anchor-link" href="#Split-apply-combine">&#182;</a></h1><p><img src=http://i.imgur.com/yjNkiwL.png></img></p>
+<p>[PK] 00:32</p>
 
 </div>
 </div>
